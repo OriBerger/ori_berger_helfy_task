@@ -16,10 +16,9 @@ Runs on: http://localhost:4000
 
 ### 2. Start the frontend
 Open another terminal:
-bash
-Copy
-Edit
+
 ```
+bash
 cd frontend
 npm install
 npm start
