@@ -1,18 +1,19 @@
 # Task Manager
 
-A small fullstack app (React + Express) for managing tasks.  
-Tasks are stored in-memory on the server — no database.
+A fullstack app for managing tasks.  
+The tasks are stored in-memory on the server(no database).
 
 ## How to run
 
 ### 1. Start the backend
+Open a terminal:
 ```
 bash
 cd backend
 npm install
 npm start
 ```
-Runs on: http://localhost:4000
+Runs on port 4000
 
 ### 2. Start the frontend
 Open another terminal:
@@ -23,4 +24,4 @@ cd frontend
 npm install
 npm start
 ```
-Runs on: http://localhost:3000
+Runs on port 3000
