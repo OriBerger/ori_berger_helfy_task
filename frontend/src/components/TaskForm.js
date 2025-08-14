@@ -24,11 +24,9 @@ const TaskForm = ({ onSubmit, existingTask, onCancel }) => {
       description: description.trim(),
       priority,
     });
-    if (!existingTask) {
-      setTitle("");
-      setDescription("");
-      setPriority("low");
-    }
+    setTitle("");
+    setDescription("");
+    setPriority("low");
   };
 
   const handleCancel = () => {
