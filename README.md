@@ -6,11 +6,12 @@ Tasks are stored in-memory on the server — no database.
 ## How to run
 
 ### 1. Start the backend
-```bash
+```
+bash
 cd backend
 npm install
-npm start```
-
+npm start
+```
 Runs on: http://localhost:4000
 
 ### 2. Start the frontend
@@ -18,7 +19,9 @@ Open another terminal:
 bash
 Copy
 Edit
-```cd frontend
+```
+cd frontend
 npm install
-npm start```
+npm start
+```
 Runs on: http://localhost:3000
